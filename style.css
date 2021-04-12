@@ -1,0 +1,30 @@
+.gameContainer {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.dino {
+    height: 75px;
+    width: 75px;
+    background: url("dinosaur.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+.score {
+    text-align: center;
+    font-size: 35px;
+}
+.obstacle {
+    height: 50px;
+    width: 25px;
+    background: blueviolet;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
